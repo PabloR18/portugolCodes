@@ -1,0 +1,27 @@
+programa
+{
+	inclua biblioteca Matematica
+	funcao inicio ()
+	{
+		
+		real peso, altura, imc
+
+		escreva("Informe o seu Peso/KG: ")
+		leia(peso)
+	
+		escreva("Informe sua altura: ")
+		leia(altura)
+		
+		imc = peso / (altura*altura)
+		
+		
+		escreva("Seu IMC é: ", imc, "\n")
+		
+		imc = Matematica.arredondar(imc, 2)
+		
+		
+		
+		
+		
+	}
+}
